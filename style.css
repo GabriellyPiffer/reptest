@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vW;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 5vh;  para espaço caso não tenha p de cima*/
+}
+
+button{
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(245, 139, 139);
+    box-shadow: 0 0 5px #ff0000;
+    border: solid 1 #ff0000; /* ou border none para sem bordar */
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
